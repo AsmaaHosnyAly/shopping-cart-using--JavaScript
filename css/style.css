@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(226, 110, 191);
+}
+a:hover{
+    background-color: rgb(226, 110, 191);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 10px;
+    color:  rgb(19, 18, 18);
+    
+}
+.container{
+
+   width: 80%;
+   height: 500px;
+   margin: auto;
+   
+
+}
+
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    /*background-color: rgb(17, 16, 16);
+    */height: 80px;
+    align-items: center;
+    border:0 1px  solid rgb(226, 110, 191);
+    border-radius:20px 555px 20px 81px ;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px rgb(226, 110, 191);
+    z-index: 80px;
+    -webkit-border-radius:20px 555px 20px 81px ;
+    -moz-border-radius:20px 555px 20px 81px ;
+    -ms-border-radius:20px 555px 20px 81px ;
+    -o-border-radius:20px 555px 20px 81px ;
+}
+
+
+nav ul {
+
+    display: flex;
+    justify-content:space-between;
+ 
+}
+nav ul li{
+    margin-left: 20px;
+    
+}
+
+.brand{
+    color: rgb(226, 110, 191);
+    text-shadow: 1px 2px rgb(99, 98, 98);
+    padding-left:10px;
+    font-size: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.brand:hover{
+    background-color: rgba(88, 83, 87, 0.034);
+    color:rgb(236, 115, 210);
+}
+
+section{
+    background-image:url("./images/110120_overview.jfif")
+}
+/* ********************** FORM********************* */
+.section-form{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    -webkit-transform:translate(-50%,-50%) ;
+    -moz-transform:translate(-50%,-50%) ;
+    -ms-transform:translate(-50%,-50%) ;
+    -o-transform:translate(-50%,-50%) ;
+    width: 40%;
+    background-color:rgb(236, 115, 210);
+    text-align: center;
+    
+    padding: 20px;
+}
+div {
+    background-image:url("./images/110120_overview.jfif")
+  }
+
+.section-form h2{
+   font-size: 50px;
+   letter-spacing: 1px;
+   color: #000;
+}
+
+.section-form form input{
+    display:block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    height: 50px;
+   outline:0;
+    border: 1px solid purple;
+}
+
+.section-form form input[type="submit"]{
+    height: auto;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.section-form form input[type="submit"]:hover{
+    opacity: .8;
+}
+
+
+
+nav ul#user-info{
+
+    display: none;
+}
